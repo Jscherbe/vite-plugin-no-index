@@ -1,0 +1,48 @@
+{
+  "name": "@ulu/vite-plugin-no-index",
+  "version": "0.0.1",
+  "description": "Simple plugin that adds _headers, robots.txt to outDir to prevent indexing. Can be enabled/disabled.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jscherbe/vite-plugin-no-index.git"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "no-index",
+    "seo",
+    "website",
+    "app"
+  ],
+  "authors": {
+    "name": "Joe Scherben",
+    "email": "jscherbe@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jscherbe/vite-plugin-no-index/issues"
+  },
+  "homepage": "https://github.com/Jscherbe/vite-plugin-no-index#readme",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.6",
+    "vite": "^5.0.0",
+    "vue": "^3.5.32"
+  },
+  "peerDependencies": {
+    "vite": ">=3.0.0"
+  }
+}
